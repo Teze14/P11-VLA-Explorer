@@ -1,0 +1,213 @@
+{
+  "schema": "p11-vla-explorer-v1",
+  "timestamp": "2026-10-28T05:55:47.098Z",
+  "crops": [
+    {
+      "index": 0,
+      "row": 0,
+      "col": 0,
+      "box": [
+        0,
+        0,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "score": 0.22843632612908626,
+      "weight": 0.09212846503816598
+    },
+    {
+      "index": 1,
+      "row": 0,
+      "col": 1,
+      "box": [
+        0.3333333333333333,
+        0,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "score": 0.2291356326146289,
+      "weight": 0.09305344958740353
+    },
+    {
+      "index": 2,
+      "row": 0,
+      "col": 2,
+      "box": [
+        0.6666666666666666,
+        0,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "score": 0.22744472068408378,
+      "weight": 0.0908325925587384
+    },
+    {
+      "index": 3,
+      "row": 1,
+      "col": 0,
+      "box": [
+        0,
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "score": 0.3082745890844256,
+      "weight": 0.28822187297327534
+    },
+    {
+      "index": 4,
+      "row": 1,
+      "col": 1,
+      "box": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "score": 0.2245828653812565,
+      "weight": 0.08719391295374095
+    },
+    {
+      "index": 5,
+      "row": 1,
+      "col": 2,
+      "box": [
+        0.6666666666666666,
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "score": 0.22301982706426737,
+      "weight": 0.08526852580819001
+    },
+    {
+      "index": 6,
+      "row": 2,
+      "col": 0,
+      "box": [
+        0,
+        0.6666666666666666,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "score": 0.2250414872236502,
+      "weight": 0.08776706036016194
+    },
+    {
+      "index": 7,
+      "row": 2,
+      "col": 1,
+      "box": [
+        0.3333333333333333,
+        0.6666666666666666,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "score": 0.2250414872236502,
+      "weight": 0.08776706036016194
+    },
+    {
+      "index": 8,
+      "row": 2,
+      "col": 2,
+      "box": [
+        0.6666666666666666,
+        0.6666666666666666,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "score": 0.2250414872236502,
+      "weight": 0.08776706036016194
+    }
+  ],
+  "textTokens": [
+    "<|startoftext|>",
+    "a ",
+    "red ",
+    "cup ",
+    "<|endoftext|>"
+  ],
+  "tokenIds": [
+    49406,
+    320,
+    736,
+    1937,
+    49407
+  ],
+  "imageSize": [
+    900,
+    600
+  ],
+  "prompt": "a red cup",
+  "gridSize": 3,
+  "temperature": 0.07,
+  "shapes": {
+    "imageInput": [
+      1,
+      3,
+      224,
+      224
+    ],
+    "cropEmbeddings": [
+      9,
+      512
+    ],
+    "textInput": [
+      1,
+      5
+    ],
+    "textEmbedding": [
+      1,
+      512
+    ],
+    "cosineScores": [
+      9
+    ],
+    "weights": [
+      9
+    ]
+  },
+  "timings": {
+    "loadMs": 0,
+    "imageMs": 0,
+    "textMs": 0,
+    "scoreMs": 0.20000000298023224,
+    "totalMs": 0.20000000298023224
+  },
+  "cache": {
+    "imageHit": true,
+    "textHit": true
+  },
+  "model": {
+    "id": "Xenova/clip-vit-base-patch32",
+    "base": "openai/clip-vit-base-patch32",
+    "revision": "d15189d7028b43f1d3e65039190477f6af591c2a",
+    "runtime": "Transformers.js 3.8.1 / ONNX Runtime Web / WASM",
+    "dtype": "q8",
+    "embeddingDimension": 512,
+    "method": "Independent grid-crop CLIP cosine similarity"
+  },
+  "action": {
+    "origin": [
+      0.5,
+      0.88
+    ],
+    "target": [
+      0.43191692678516236,
+      0.49576222463205927
+    ],
+    "delta": [
+      -0.06808307321483764,
+      -0.38423777536794074
+    ],
+    "gain": 1,
+    "units": "normalized image coordinates; +x right, +y down"
+  },
+  "limitations": [
+    "CLIP crop relevance; not internal attention.",
+    "Deterministic 2D action; not learned robot control."
+  ],
+  "display": {
+    "opacity": 0.45
+  }
+}

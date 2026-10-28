@@ -1,0 +1,10 @@
+toolkit/models/
+dist/
+__pycache__/
+.venv/
+*.partial
+.DS_Store
+site-archive.zip
+*.mp4
+*.wav
+*.webm

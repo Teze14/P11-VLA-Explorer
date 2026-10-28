@@ -1,0 +1,198 @@
+{
+  "timestamp": "2026-10-28T05:46:57.679Z",
+  "rows": [
+    {
+      "kind": "session_initialization_plus_image",
+      "loadMs": 2707.8999999910593,
+      "imageMs": 3219.7999999970198,
+      "textMs": 36.20000000298023,
+      "scoreMs": 1.2000000029802322,
+      "totalMs": 5965.9000000059605,
+      "cache": {
+        "imageHit": false,
+        "textHit": false
+      }
+    },
+    {
+      "kind": "new_image",
+      "loadMs": 0,
+      "imageMs": 2940.1000000089407,
+      "textMs": 28.399999991059303,
+      "scoreMs": 0.10000000894069672,
+      "totalMs": 2968.6000000089407,
+      "cache": {
+        "imageHit": false,
+        "textHit": false
+      }
+    },
+    {
+      "kind": "new_image",
+      "loadMs": 0,
+      "imageMs": 2939.4000000059605,
+      "textMs": 27.299999997019768,
+      "scoreMs": 0.10000000894069672,
+      "totalMs": 2966.9000000059605,
+      "cache": {
+        "imageHit": false,
+        "textHit": false
+      }
+    },
+    {
+      "kind": "new_image",
+      "loadMs": 0,
+      "imageMs": 2931.4000000059605,
+      "textMs": 28.299999997019768,
+      "scoreMs": 0.29999999701976776,
+      "totalMs": 2960,
+      "cache": {
+        "imageHit": false,
+        "textHit": false
+      }
+    },
+    {
+      "kind": "cached_image_new_text",
+      "loadMs": 0,
+      "imageMs": 0,
+      "textMs": 27.700000002980232,
+      "scoreMs": 0.20000000298023224,
+      "totalMs": 27.900000005960464,
+      "cache": {
+        "imageHit": true,
+        "textHit": false
+      }
+    },
+    {
+      "kind": "cached_image_new_text",
+      "loadMs": 0,
+      "imageMs": 0,
+      "textMs": 30.599999994039536,
+      "scoreMs": 0.09999999403953552,
+      "totalMs": 30.69999998807907,
+      "cache": {
+        "imageHit": true,
+        "textHit": false
+      }
+    },
+    {
+      "kind": "cached_image_new_text",
+      "loadMs": 0,
+      "imageMs": 0,
+      "textMs": 27.899999991059303,
+      "scoreMs": 0.5,
+      "totalMs": 28.399999991059303,
+      "cache": {
+        "imageHit": true,
+        "textHit": false
+      }
+    },
+    {
+      "kind": "cached_image_new_text",
+      "loadMs": 0,
+      "imageMs": 0,
+      "textMs": 30.700000002980232,
+      "scoreMs": 0.19999998807907104,
+      "totalMs": 30.899999991059303,
+      "cache": {
+        "imageHit": true,
+        "textHit": false
+      }
+    },
+    {
+      "kind": "cached_image_new_text",
+      "loadMs": 0,
+      "imageMs": 0,
+      "textMs": 27.100000008940697,
+      "scoreMs": 0.09999999403953552,
+      "totalMs": 27.200000002980232,
+      "cache": {
+        "imageHit": true,
+        "textHit": false
+      }
+    },
+    {
+      "kind": "full_embedding_cache",
+      "loadMs": 0,
+      "imageMs": 0,
+      "textMs": 0,
+      "scoreMs": 0.10000000894069672,
+      "totalMs": 0.10000000894069672,
+      "cache": {
+        "imageHit": true,
+        "textHit": true
+      }
+    },
+    {
+      "kind": "full_embedding_cache",
+      "loadMs": 0,
+      "imageMs": 0,
+      "textMs": 0,
+      "scoreMs": 0.09999999403953552,
+      "totalMs": 0.09999999403953552,
+      "cache": {
+        "imageHit": true,
+        "textHit": true
+      }
+    },
+    {
+      "kind": "full_embedding_cache",
+      "loadMs": 0,
+      "imageMs": 0,
+      "textMs": 0,
+      "scoreMs": 0.20000000298023224,
+      "totalMs": 0.20000000298023224,
+      "cache": {
+        "imageHit": true,
+        "textHit": true
+      }
+    },
+    {
+      "kind": "full_embedding_cache",
+      "loadMs": 0,
+      "imageMs": 0,
+      "textMs": 0,
+      "scoreMs": 0.3999999910593033,
+      "totalMs": 0.3999999910593033,
+      "cache": {
+        "imageHit": true,
+        "textHit": true
+      }
+    },
+    {
+      "kind": "full_embedding_cache",
+      "loadMs": 0,
+      "imageMs": 0,
+      "textMs": 0,
+      "scoreMs": 0.10000000894069672,
+      "totalMs": 0.10000000894069672,
+      "cache": {
+        "imageHit": true,
+        "textHit": true
+      }
+    }
+  ],
+  "temperatureMsPerCall": [
+    0.095,
+    0.08799999997019768,
+    0.08100000008940697,
+    0.09,
+    0.08299999997019768,
+    0.08299999997019768,
+    0.08200000002980232,
+    0.08099999994039536,
+    0.08200000002980232,
+    0.08200000002980232
+  ],
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+  "hardwareConcurrency": 32,
+  "deviceMemory": 16,
+  "browser": "Chrome headless; WASM one thread; models served from local disk; no network download included",
+  "model": {
+    "id": "Xenova/clip-vit-base-patch32",
+    "base": "openai/clip-vit-base-patch32",
+    "revision": "d15189d7028b43f1d3e65039190477f6af591c2a",
+    "runtime": "Transformers.js 3.8.1 / ONNX Runtime Web / WASM",
+    "dtype": "q8",
+    "embeddingDimension": 512,
+    "method": "Independent grid-crop CLIP cosine similarity"
+  }
+}

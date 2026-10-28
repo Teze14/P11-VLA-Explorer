@@ -1,0 +1,3 @@
+# The browser toolkit's local launcher uses Python 3.10+ standard library only.
+# ML runs in the browser through the bundled Transformers.js/ONNX runtime.
+# No pip packages are required. Optional notebook dependencies are separate.

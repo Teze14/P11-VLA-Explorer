@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "checks": [
+    "real CLIP inference",
+    "512-D embeddings",
+    "9 crops",
+    "normalized weights",
+    "red-cup strongest region",
+    "blue-cube strongest region",
+    "opacity numerical invariance",
+    "gain scales delta only",
+    "temperature changes weights",
+    "save comparison",
+    "JSON export",
+    "occlusion reruns vision",
+    "restore image",
+    "photograph inference",
+    "six lesson feedbacks",
+    "four protocols",
+    "responsive 390px layout",
+    "no page errors"
+  ],
+  "limitations": [
+    "Camera hardware not exercised",
+    "Export blob/schema tested; headless file download canceled by browser environment",
+    "No human study",
+    "No robot policy evaluation"
+  ]
+}
