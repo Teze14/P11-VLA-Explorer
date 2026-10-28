@@ -8,3 +8,5 @@ site-archive.zip
 *.mp4
 *.wav
 *.webm
+
+.openai/

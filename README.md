@@ -27,7 +27,7 @@ python download_models.py
 python serve.py
 ```
 
-The supplied local folder already contains downloaded model files. Portable submission/source archives omit them; the download script restores the pinned revision. Browser inference runs locally; images and prompts are not sent to a model server. Camera access is an optional snapshot feature, not continuous real-time video.
+Git clones and portable source archives omit model weights; the download script restores the pinned revision. The original demo folder may already contain them. Browser inference runs locally; images and prompts are not sent to a model server. Camera access is an optional snapshot feature, not continuous real-time video.
 
 Do not open `index.html` by double-clicking: ES modules and WebAssembly need HTTP. If a port is occupied, use `python serve.py --port 8768` and visit that port. A model error is displayed explicitly; there is no fabricated-output fallback.
 
@@ -63,14 +63,18 @@ The weighted target can fall between objects. A target-absent command still rece
 | `evaluation/` | Actual local inference measurements and QA evidence |
 | `notebooks/` | Optional genuine-VLA integration exercise; execution status stated inside |
 
-## Required remote repository step
+## Repository
 
-This delivery is prepared as a **local Git repository on `main`**, at your request. Before submitting to D2L, create a GitHub/GitLab/Hugging Face repository, push this source, and provide the actual URL to course staff. Do not submit a placeholder URL. Grant staff access if private. Model binaries are excluded from Git.
+Source code: https://github.com/Teze14/P11-VLA-Explorer (branch `main`).
 
 ```text
-git remote add origin YOUR_ACTUAL_REPOSITORY_URL
-git push -u origin main
+git clone https://github.com/Teze14/P11-VLA-Explorer.git
+cd P11-VLA-Explorer
+python download_models.py
+python serve.py
 ```
+
+Model weights are downloaded separately and excluded from Git. The repository is public, so course staff can access the source without an invitation.
 
 ## Sources and credits
 
