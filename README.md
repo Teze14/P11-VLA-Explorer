@@ -53,6 +53,8 @@ The weighted target can fall between objects. A target-absent command still rece
 
 ## Project contents
 
+For a complete walkthrough in Spanish, including the purpose of every code file and instructions for teammates, read [`docs/GUIA_TECNICA_ES.md`](docs/GUIA_TECNICA_ES.md).
+
 | Folder/file | Purpose |
 |---|---|
 | `toolkit/` | Runnable browser app, model module, lessons, original scene, licensed example photo |
